@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <center><h2>GENERAL BUS PASS APPLICATION</h2></center>
+  <form action="submit.html" target="_blank" autocomplete="on" name="TSRTC Bus Pass">
+      <fieldset>
+        <table style="width:100%">
+        <legend>Applicant Details:</legend>
+          <tr>
+            <td><label for="Name">Name:</label></td>
+            <td><input type="text" name="Name" required maxlength="30" placeholder="Enter your name"></td>
+        
+            <td><label for="fathername">Father's/Guardian's Name:</label></td>
+            <td><input type="text" name="fathername" required placeholder="Enter  your Father/guardian name"></td>
+            
+            <td><label for="DOB">Date of Birth(dd/mm/yy):</label></td>
+            <td><input type="date" name="DOB" required></td>
+          </tr>
+
+          <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td><input type="radio" name="gender" required>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender">
+            <label for="gender">Female</label></td>
+
+            <td><label for="aadhar">Aadhaar No:</label></td>
+            <td><input type="text" name="aadhar" placeholder="Enter aadhar number"></td>
+      
+            <td><label for="whatsapp">Whatsapp No:</label></td>
+            <td><input type="text" name="whatsapp"required placeholder="Enter  your number"></td>
+          </tr>
+
+          <tr>
+            <td><label for="email">Email Id:</label></td>
+            <td><input type="text" name="email"required placeholder="Enter your email"></td>
+
+            <td><label for="photo">Photo:</label></td>
+            <td><input type="file" name="photo" required placeholder="Choose File"></td>
+          </tr>
+        </table>
+      </fieldset>
+
+
+      <fieldset>
+        <table style="width: 100%;">
+        <legend>Residential Addresss Details:</legend>
+          <tr>
+            <td><label for="address">Applicant Address:</td>
+            <td><textarea name="applicant's addresss" id="address" placeholder="Enter your address" required maxlength="300"></textarea></td>
+  
+            <td><label for="city">District:</label></td>
+            <td>
+            <select name="city" required>
+            <option value="city">Select District</option>
+            <option value="city">Hyderabad</option>
+            </select>
+            </td>
+
+            <td><label for="city">Mandal:</label></td>
+            <td>
+            <select name="city" required>
+            <option value="city">Select Mandal</option>
+            <option value="city">Nampally</option>
+            </select>
+            </td>
+
+          </tr>
+          <tr>
+            <td><label for="city">City:</label></td>
+            <td>
+            <select name="city" required>
+            <option value="city">Select city</option>
+            <option value="city">Hyderabad</option>
+            <option value="city">Banglore</option>
+            </select>
+            </td>
+
+            <td><label for="pincode">Pincode:</label></td>
+            <td><input type="" id="pincode" required placeholder="Enter your pincode"></td>
+          </tr>
+        </table>
+      </fieldset>
+
+
+        <fieldset>
+          <table style="width:100%">
+          <legend>Pass Type Details:</legend>
+            <tr>
+              <td><label for="city">City:</label></td>
+              <td>
+              <select name="city" required>
+              <option value="city">Select city</option>
+              <option value="city">Hyderabad</option>
+              </select>
+              </td>
+              
+              <td><label for="passtype">Pass Type:</label></td>
+              <td>
+              <select name="passtype" required>
+              <option value="passtype">-------------select-------------</option>
+              <option value="passtype">Greater Pass</option>
+              <option value="passtype">General Ordinary Route Pass MTLY</option>
+              <option value="passtype"> Metro Express Pass</option>
+              <option value="passtype">Ordinary Pass</option>
+              <option value="passtype"> Metro Deluxe Pass</option>
+              </td>
+            </select>
+            </tr>
+          </table>
+        </fieldset>
+
+
+      <fieldset>
+        <table style="width:100%">
+          <legend>Mode of Payment & Pass Collection:</legend>
+          <tr>
+            <td><label for="paymentmode">Payment Mode:</label></td>
+            <td>
+            <select name="paymentmode" required>
+            <option value="paymentmode">Select Payment Mode</option>
+            <option value="paymentmode">Payment at counter</option>
+            </select>
+            </td>
+
+            <td><label for="passdelivery">Pass Delivery Mode:</label></td>
+            <td>
+            <select name="passdelivery" required>
+            <option value="passdelivery">Select Pass Delivery Mode</option>
+            <option value="passdelivery">At Counter</option>
+            </select>
+            </td>
+
+            <td><label for="passdelivery">Center at which at which you want to Collect Pass:</label></td>
+            <td>
+            <select name="passdelivery" required>
+            <option value="passdelivery">-------------select-------------</option>
+            <option value="passdelivery">RTC ABIDS - HYD [24/06/25]</option>
+            <option value="passdelivery">RTC AIRPORT - HYD [23/06/25]</option>
+            <option value="passdelivery">RTC BALANAGAR - HYD [24/06/25]</option>
+            <option value="passdelivery">RTC CHARMINAR - HYD [24/06/25]</option>
+            <option value="passdelivery">RTC UPPAL-X ROAD - HYD [24/06/25]</option>
+            </select>
+            </td>
+          </tr>
+    </table>
+    </fieldset><br>
+    <center><button type="submit">Submit</button></center>
+    </form>
+</body>
+</html>
